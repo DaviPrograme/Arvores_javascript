@@ -87,7 +87,7 @@ function preOrder(raiz) {
 
 /*
  * IN-ORDER: de forma recursiva, este algoritmo avalia a arvore analisando 
- * ela primeiro todos os valores que estão do lado esquerdo, depois avalia 
+ * primeiro todos os valores que estão do lado esquerdo, depois avalia 
  * o valor corrente e, por ultimo, avalia todos os valores a direita. Ao 
  * contrario do que acontece no preOrder, no inOrder a avaliação acontece 
  * da folha posicionada mais extrema a esquerda para a direita.
@@ -99,8 +99,8 @@ function inOrder(raiz) {
 }
 
 /*
- * IN-ORDER: de forma recursiva, este algoritmo avalia a arvore analisando 
- * ela primeiro todos os valores que estão do lado esquerdo, depois avalia 
+ * POS-ORDER: de forma recursiva, este algoritmo avalia a arvore analisando 
+ * primeiro todos os valores que estão do lado esquerdo, depois avalia 
  * todos os valores a direita e, por ultimo, avalia o valor corrente. De 
  * forma muito parecida que acontece no inOrder, no posOrder a avaliação 
  * acontece da folha posicionada mais extrema a esquerda para a direita.
